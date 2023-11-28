@@ -16,7 +16,13 @@ class MainApp extends StatelessWidget {
         child: Container(
           padding: const EdgeInsets.all(40),
           color: Colors.yellow,
-          child: const Text('Hello World!'),
+          child: const Column(
+            children: [
+              Text('Hello World!'),
+              Text('Hello World!'),
+              Text('Hello World!')
+            ],
+          ),
         ),
       ),
     ));
