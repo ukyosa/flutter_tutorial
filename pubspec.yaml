@@ -14,6 +14,11 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
-
+  
 flutter:
   uses-material-design: true
+
+  # Step5: 画像をアプリケーションから呼び出すためにこちらに追記が必要です。
+  # ref. https://docs.flutter.dev/ui/layout/tutorial#step-5-implement-the-image-section
+  assets:
+    - images/lake.jpg
